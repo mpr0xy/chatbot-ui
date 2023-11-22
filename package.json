@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p 10248",
+    "start": "next start -p 10248 -H localhost",
     "lint": "next lint",
     "format": "prettier --write .",
     "test": "vitest",
